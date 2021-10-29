@@ -8,8 +8,11 @@
     <title>@yield('title') | FakeFlix</title>
 </head>
 <body>
+    @include('partials.header')
     <main>
-        @yield('content')
+        <div class="container-main">
+                 @yield('content')
+        </div>
     </main>
 </body>
 </html>

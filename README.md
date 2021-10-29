@@ -22,7 +22,7 @@
 che quindi li visualizzerà a schermo, tramite delle card.
 
 
-- [ ] BONUS:
+- [X] BONUS:
     Stilare il layout nei dettagli con Sass
     
 
