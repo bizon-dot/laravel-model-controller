@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);* {
+  font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+}
+
+.container-main {
+  height: 100vh;
+  background-color: black;
+}
+
+#movies {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#movies .movies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#movies .movies-container .card-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4d4d4d;
+  flex: 0 1 calc(20% - 8px);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+}
+
