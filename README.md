@@ -18,7 +18,7 @@
 - [X] Create un model Movie e un controller che gestirà la rotta /.
 
 
-- [ ] All'interno della funzione index() del controller, recuperate tutti i film dal database e passateli alla view,
+- [X] All'interno della funzione index() del controller, recuperate tutti i film dal database e passateli alla view,
 che quindi li visualizzerà a schermo, tramite delle card.
 
 

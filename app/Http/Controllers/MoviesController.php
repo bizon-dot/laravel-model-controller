@@ -9,9 +9,11 @@ class MoviesController extends Controller
 {
     public function index(){
     
-    $movies = Movies::all();
-    dd($movies);
-    return view('welcome');
+    $data = Movies::all();
+    $movies = [
+        'movies' => $data,
+    ];
+    return view('home', $movies);
 
 }
 
